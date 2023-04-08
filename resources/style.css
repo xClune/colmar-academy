@@ -1,0 +1,76 @@
+
+html{
+    font-family: sans-serif;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    background-color: white;
+}
+
+.header img {
+    justify-content: left;
+    height: 50px;
+    width: auto;
+    margin-left: 24px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+    justify-content: left;
+    align-items: center;
+    font-size: 32px;
+    font-weight: lighter;
+  }
+
+/* Style the header links */
+
+.header-right {
+    margin-left: auto;
+    align-items: center;
+    padding: 24px;
+}
+
+.header a {
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  /* Main Section */
+
+.primary-section{
+    display: flex;
+    width: 100%;
+    background-color: lightgray;
+    align-items: center;
+  }
+
+.primary-section img{
+    width: 60%;
+    padding: 32px 24px;
+  }
+
+.primary-right{
+    width: auto;
+    color: rgb(83, 83, 83);
+    text-align: left;
+}
+
+.primary-right h2, p , .button{
+    margin-right: auto;
+}
+
+.primary-right .button{
+    background-color:rgb(83, 83, 83);
+    color:white;
+    padding: 8px 50px;
+}
+
